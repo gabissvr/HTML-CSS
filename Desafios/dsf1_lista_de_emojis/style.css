@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: crimson;
+}
+h2 {
+    text-align: justify;
+    color: whitesmoke;
+    background-color: crimson;
+}
+ul{
+    background-color:antiquewhite;
+    text-align: justify;
+    font-family: monospace;
+}

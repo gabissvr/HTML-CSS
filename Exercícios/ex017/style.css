@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+    text-align: justify;
+}
+body{
+    font-family: sans-serif;
+    background: #ffecf2
+}
+
+h1{
+    color: rgb(58, 27, 39);
+}
+
+main{
+    background-color: #fff;
+    border-radius: 30px;
+    border: 20em;
+    box-shadow:rgb(58, 27, 39) 30px;
+    flex-direction: row-reverse;
+}

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+* {
+    background: #C292F3 url(#) no-repeat center;
+}
+body {
+    
+}
+h1 {
+    color: #24073D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2 {
+    color: #24073D;
+
+}
+
+p {
+    background: #fff
+}

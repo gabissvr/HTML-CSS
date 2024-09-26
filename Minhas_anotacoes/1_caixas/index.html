@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anotações - Caixas </title>
+</head>
+<body>
+    <h1> Modelos de caixas </h1>
+    <p> Os conceitos do Modelo de Caixas ( Box Model ) são aplicáveis ao HTML e ao CSS. Se trata de conjuntos que irão facilitar muito na hora de organizarmos o design e as partes do nosso site.
+
+        <p>Quando temos um documento HTML, tudo aquilo que é exibido na tela, é exibido em forma de caixa... De tal modo que a grande maioria das caixas na HTML podem estar uma dentro da outra. Dessa forma, podemos formar hierarquias de caixas.</p>
+        
+        <p>Quando colocamos um elemento dentro do outro, o termo que descreve isso é o " ANINHAMENTO ", algo em forma de ninho, coisas que estão uma dentro da outra e assim por diante. Na prática, uma caixa seria todo elemento de um site visível na tela.</p>
+        
+        <p>Considerando que todos os elementos de um site estão dentro de uma caixa, quando formatamos um elemento com o CSS através de seletores, na verdade estamos configurando a caixa que vai estar exibindo esse elemento.</p>
+        
+        <h2>ANATOMIA DAS CAIXAS:</h2>
+        
+        <h3>PARTE DE CONTEÚDO : Toda caixa possui um tamanho, que é chamado de " PARTE DE CONTEÚDO ", esse tamanho é especificado em duas medidas muito importantes, que são: Altura ( " height " ) e Largura ( " width " )</h3>
+        
+        <h3>BORDA : Podemos traçar uma linha em volta da Parte de Conteúdo (que define o tamanho da caixa) e chamamos essa linha de " BORDA "... Sendo assim uma borda é uma linha que circunda o seu conteúdo. </h3>
+        
+        <h3>PADDING : Por padrão, a linha da Borda irá ficar muito próxima da Parte de Conteúdo , e se quisermos dar um distanciamento, devemos adicionar um espaço de " PADDING " (acolchoamento), que seria uma pequena lacuna entre a Parte de Conteúdo e a Borda , para dar aquela engordada no elemento, mantendo a nossa borda distante do conteúdo. </h3>
+        
+       <h3> MARGIN : Ao desenvolver um site, eventualmente iremos ter caixas uma embaixo da outra de forma seguida e, se uma dessas caixas estiver configurada com um espaçamento "padding", pode ser que elas fiquem muito próximas uma da outra e acabem "grudando" na borda do elemento de cima. Pensando nisso, podemos criar, além de um espaço interno (padding), um espaçamento EXTERNO logo após a borda , que seria um " MARGIN ".</h3>
+        
+       <h3> OUTLINE/TRACEJADO : Outra coisa que podemos fazer dentro do margin (espaçamento externo), logo do lado de fora da borda, é criar um tracejado, que não seria uma segunda borda e sim uma área chamada de " OUTLINE " (contorno/traçado). </h3>
+        
+        <p>Sendo assim, ainda referente à anatomia das caixas, todo elemento e consequentemente toda caixa, tem a " Parte de Conteúdo ", tem uma " Borda ", dessa borda para dentro, temos o " Padding ", da borda para fora temos o " Margin " e, ainda dentro do margin e fora da borda, temos a área do " Outline ".</p>
+        
+        <p>Nota: Todas essas características anatômicas das caixas (tirando a Parte de Conteúdo ) geralmente só irão se manifestar se forem previamente configuradas no seu código.</p>
+        
+        <h2>TIPOS DE CAIXA:</h2>
+        
+        <p>Basicamente, existem dois tipos de caixas, as do tipo " box-level / block-level " e " inline-level ".</p>
+        
+        <p>box-level / block-level: Em uma caixa do tipo "box-level / block-level", o dito elemento sempre irá se iniciar em uma nova linha e como padrão sempre ocupará a largura total da tela ou do elemento onde ele está contido (100% do viewport), sendo que irá pular para a próxima linha antes de continuar o conteúdo posterior e aí sim inserir outros boxes. As caixas desse tipo são isoladas e independentes.</p>
+        
+        <p>Exemplos de tags do tipo "box-level / block-level": &lt div &gt &lt p&gt &lt main&gt &lt video&gt &lt h1&gt</p>
+        
+        <p>inline-level: Já uma caixa do tipo "inline-level" não vai começar em uma nova linha, e sim no ponto exato onde foram definidos, no meio de um parágrafo por exemplo. E a largura dele vai ocupar apenas o tamanho relativo ao seu conteúdo, sendo que não irá quebrar a linha ao terminar, continuando o conteúdo de forma direta (em um parágrafo por ex) sem pular para a linha de baixo.</p>
+        
+       <p> Exemplos de tags do tipo "inline-level": &lt a &gt &lt span &gt &lt code &gt &lt strong &gt &lt em &gt</p>
+        
+        </p>
+</body>
+</html>
