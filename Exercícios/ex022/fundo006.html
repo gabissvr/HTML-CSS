@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body{
             height: 100vh;
-            background-color: aliceblue;
-            background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;
-            background-repeat: no-repeat;
-            background-size: cover;
+           background: aliceblue  url('imagens/wallpaper002.jpg') no-repeat fixed center center;
+           background-size: cover;
         }
+        /*background short-hand: color, image, repeat, attachment, position.
+        (não funciona com background-SIZE) */
         main{
             background-color: white;
             width: 400px;
