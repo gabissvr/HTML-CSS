@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @font-face{
     font-family: 'Android';
-    src: url('pacote-projeto-d010/fontes/idroid.otf');
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
     font-weight: normal;
 
 }
@@ -50,7 +50,6 @@ padding-top: 20px;
 padding-bottom: 20px;
 margin: auto;
 background-image:linear-gradient(to top,#47843e, var(--cor5));
-
 color: #ffffff;
 text-align: center;
 text-shadow: 0px 0px 10px black;
